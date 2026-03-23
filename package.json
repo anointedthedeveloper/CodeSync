@@ -1,1 +1,1 @@
-{ "name": "codesync", "version": "1.0.0", "main": "index.js", "scripts": { "start": "node backend/src/server.js", "client": "npm start --prefix frontend", "dev": "concurrently -n backend,frontend -c "cyan,magenta" npm:start npm:client" }, "dependencies": {}, "devDependencies": { "concurrently": "^5.3.0" } }
+{"scripts": {"start": "node backend/src/server.js", "dev": "concurrently npm run server npm run client"}}
