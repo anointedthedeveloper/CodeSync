@@ -1,1 +1,1 @@
-{"scripts":{"start":"node backend/src/server.js","dev":"concurrently npm run server npm run client"},"devDependencies":{"concurrently":"^9.2.1"}}
+{"name": "CodeSync", "version": "1.0.0", "scripts": { "start": "cd backend && npm start", "client": "cd frontend && npm start" }, "dependencies": {}}
